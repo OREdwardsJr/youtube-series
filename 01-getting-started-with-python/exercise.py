@@ -1,10 +1,25 @@
 """
-Instructions:
+• Instructions:
 You are meeting with your friend, Amy, to have dinner with her family. Below is a story that talks about
 your experience at dinner. Fill in the variables below so that the story makes sense. Feel free to make up
 the family names as you please.
 
-Testing your answers:
+The format is at such:
+
+#Enter code below
+
+#Enter code above
+
+You are expected to enter your code between "#Enter code below" and "#Enter code above". For example it should look like the following:
+#Enter code below
+
+variable = "Test
+print(variable)
+
+#Enter code above
+
+
+•Testing your answers:
 When you have created all of the variables then run your program. If no errors occur, and you can choose a food within the options,
 then your progam functions as expected!
 
@@ -12,6 +27,9 @@ Troubleshooting:
 If you run into difficulties then you can reference "exercise answer.py" for an example.
 """
 
+'''
+---------------- Begin Exercise ----------------
+'''
 
 # Variable Assignment
 """
@@ -26,8 +44,8 @@ If you run into difficulties then you can reference "exercise answer.py" for an 
 
 # List Creation
 """
-• Create a list called pets. Fill the list with variables cat and dog.
-• Create a list called food_choices. Fill it with 4 food options for dinner.
+• Create a list called "pets". Fill the list with variables cat and dog.
+• Create a list called "food_choices". Fill it with 4 food options for dinner.
 """
 # Enter code below
 
@@ -36,7 +54,7 @@ If you run into difficulties then you can reference "exercise answer.py" for an 
 
 # Dictionary Creation
 """
-• Create a dictionary called family. The dictionary should consist of a family with keys: "Mom", "Dad", "Friend", "Brother", and "Pets".
+• Create a dictionary called "family". The dictionary should consist of a family with keys: "Mom", "Dad", "Friend", "Brother", and "Pets".
 The value for "Friend" should be "Amy". The value for the key "Pets" should be the pets list created above.
 """
 # Enter code below
@@ -59,9 +77,9 @@ The value for "Friend" should be "Amy". The value for the key "Pets" should be t
 
 # Inputs
 """
-• Create a variable called my_choice and assign it an input statement. 
+• Create a variable called "my_choice" and assign it an input statement. 
     - The input should ask "What dish would you like?" and your input should match a dish in food_choices.
-• Create a variable called servings and assign an input statement to it. 
+• Create a variable called "servings" and assign an input statement to it. 
     - The input should ask "How many servings would you like?"
 """
 # Enter code below
@@ -73,12 +91,12 @@ The value for "Friend" should be "Amy". The value for the key "Pets" should be t
 """
 • Create a for loop that iterates through each item in the list food_choices.
     - If your variable my_choice matches an item in food_choices then assign the boolean True to a variable named "success".
-• Enter your code for the for loop below underneath the hashtag "#Create for loop". Replace the text that says "#Enter code here" with your code.
+• Enter your code for the for loop below underneath the hashtag "#Create for loop".
 """
 # Create for loop
 def choose_food():  # This is a function. Do not worry too much about what this does yet.
     success = False
-    # Enter code below
+    # Enter code below - Don't edit above.
 
     # Enter code above - Don't edit below.
     if success == True:
@@ -95,7 +113,7 @@ def choose_food():  # This is a function. Do not worry too much about what this 
 """
 # Create while loop
 def eat_food(serving):
-    # Enter code below
+    # Enter code below - Don't edit code above.
 
     # Enter code above - Don't edit code below.
     if serving == 0:
