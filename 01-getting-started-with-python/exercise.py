@@ -99,7 +99,7 @@ def choose_food():  # This is a function. Do not worry too much about what this 
     # Enter code below - Don't edit above.
 
     # Enter code above - Don't edit below.
-    if success == True:
+    if success:
         return "'Sure I can make that!'"
     else:
         return "'That's not in the list but I'll try to make it'"
